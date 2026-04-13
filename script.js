@@ -6,7 +6,7 @@ async function getWeather() {
     return;
   }
 
-  const apiKey = "6258785088ba9e9e299673645a1f8c2a";
+  const apiKey = "Your_openweathermap_api";
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
@@ -35,7 +35,7 @@ async function getWeather() {
   }
 }
 async function changeBackground(city) {
-  const accessKey = "zun2T0Zx4luhW7Ih_fnxhg9EoQCC0y_DsJUQe3md3k8";
+  const accessKey = "Your_unsplash_api";
 
   try {
     const response = await fetch(
